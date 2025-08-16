@@ -78,7 +78,7 @@ interface SignInParams {
 
 interface SignUpParams {
   uid: string;
-  name: string;
+  userName: string;
   email: string;
   password: string;
 }
