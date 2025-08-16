@@ -43,4 +43,5 @@ next-env.d.ts
 # clerk configuration (can include secrets)
 /.clerk/
 
-crux-ai-69238-firebase-adminsdk-fbsvc-044cf7cc26.json
+# Firebase service account keys
+*firebase-adminsdk*.json
