@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Crux AI – AI-Powered Interview Preparation Platform
 
-## Getting Started
+Crux AI is a full-stack AI interview preparation platform designed to simulate real job interviews using intelligent voice-based agents and adaptive AI workflows. The system generates tailored interview questions, conducts interactive voice conversations, and provides structured feedback based on candidate responses. Built for scalability, reliability, and a modern SaaS experience, Crux AI transforms traditional interview preparation into a personalized, interactive learning process.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Crux AI integrates conversational AI models, voice interaction systems, real-time processing capabilities, and a robust web application layer to deliver a highly immersive interview experience. The platform enables users to generate interview sessions for any job role, interact with AI interviewers through voice, and instantly receive feedback, scores, and improvement suggestions.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This application is designed for users preparing for technical and non-technical interviews and for teams seeking an automated evaluation system.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+### Interview Generation
+- Dynamic interview creation based on specific roles, domains, or difficulty levels.
+- AI-driven question generation using multilingual, multi-domain reasoning.
+- Adaptive question flow that adjusts based on user responses.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Voice-Based AI Interviews
+- Real-time voice interaction with AI agents.
+- Natural conversational flow that simulates realistic interview conditions.
+- Transcription of user responses for analysis and future review.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### AI Feedback and Evaluation
+- Automatic assessment of user responses based on clarity, relevance, and technical depth.
+- Structured feedback including strengths, weaknesses, and action-based recommendations.
+- Detailed transcripts with annotated insights for improvement.
 
-## Deploy on Vercel
+### User Authentication and Profiles
+- Secure account creation and login.
+- Individual dashboards with stored interviews, transcripts, and analytics.
+- Cloud-synced user data for cross-device continuity.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Modern Dashboard Experience
+- Clean and responsive interface designed for maximum usability.
+- Seamless navigation across interviews, feedback pages, and profile sections.
+- Dark/light theme support for accessibility and preference.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Architecture and Reliability
+- Server-side logic for secure API endpoints and interview workflows.
+- Real-time communication pipeline for voice interactions.
+- Strong input validation and error handling.
+- Scalable, cloud-ready architecture.
+
+---
+
+## Tech Stack
+
+Crux AI is built with a modern, full-stack web and AI integration stack:
+
+- Framework: Next.js  
+- Language: TypeScript  
+- Interface: React  
+- Authentication & Storage: Firebase  
+- Voice Agents: Vapi AI  
+- AI Model Orchestration: Google Generative AI  
+- Data Validation: Zod  
+- Styling: Tailwind CSS  
+- State & Forms: React Hook Form  
